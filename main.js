@@ -18,3 +18,13 @@ for (const img of imgList) {
     img.style.opacity = 0
   })
 }
+
+const buttons = document.querySelectorAll("button")
+for (const button of buttons) {
+  button.addEventListener('click', function(event) {
+    document.querySelector("body").style.opacity = 0
+
+
+}
+  )
+}
