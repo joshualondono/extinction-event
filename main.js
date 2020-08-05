@@ -11,3 +11,10 @@ for (const item of listFade) {
     item.style.opacity = 0.2
   })
 }
+
+const imgList = document.querySelectorAll("img")
+for (const img of imgList) {
+  img.addEventListener('click', function(event) {
+    img.style.opacity = 0
+  })
+}
